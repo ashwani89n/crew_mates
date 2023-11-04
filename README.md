@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# WEB102 Project 7 - Crewmates! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: Ashwani Balakrishnan Neminimadathil
 
-## Available Scripts
+Crewmates is a web application that allows the user to assemble a team for a Tech Company. The user can join the Team in various departments for the available roles. This information can be updated or deleted based on the requirement.
 
-In the project directory, you can run:
+Time spent: 7 hours spent in total
 
-### `npm start`
+## Required Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following **required** functionality is completed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [x] A create form allows users to add new crewmates
+* [x] Users can name the crewmate, assign an employee id, designation and department as well.
+* [x] The site displays a summary page of all the user’s added crewmates
+* [x] A previously created crewmate can be updated from the crewmate list
+* [x] A previously created crewmate can be deleted from the crewmate list
+* [x] Each crewmate has a direct, unique link to an info page about them
+* [x] A crewmate can be given a category upon creation which restricts their attributes, such as a development team role (project manager, product owner, etc.)
+* [x] The site displays summary statistics about a user’s crew on their crew page, such as the count of members within each departments
+## Video Walkthrough
 
-### `npm test`
+Here's a walkthrough of implemented features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src='https://github.com/ashwani89n/crew_mates/blob/main/Ashwani_CrewMates.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-### `npm run build`
+GIF created with Licecap Tool
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Copyright [2023] [Ashwani Balakrishnan Neminimadathil]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-### `npm run eject`
+        http://www.apache.org/licenses/LICENSE-2.0
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+--------------------------------------------------------------------------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
