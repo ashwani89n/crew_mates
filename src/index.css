@@ -5,13 +5,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -31,10 +30,9 @@ body {
   min-height: 100vh;
   padding: 0;
   background-color: black;
-  background-image: url('./assets/digital-marketing-home-07.jpg.png');
   background-size: cover;
   background-position: center right;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: whitesmoke;
 }
 
 h1 {
@@ -53,9 +51,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
